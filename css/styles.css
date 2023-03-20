@@ -820,6 +820,15 @@ span {
 }
 /* .form-input:not(:focus):not(:placeholder-shown):invalid { */
 /* background-color: red;} */
+
+.form-checkbox:checked + .checkbox-feik-icon {
+  background-color: var(--accent-color);
+  border-color: #4d5ae5;
+}
+.form-checkbox:checked + .checkbox-feik-icon .form-checkbox-icon {
+  opacity: 1;
+  fill: #fff;
+}
 .form-label span {
   display: block;
   font-weight: 400;
@@ -965,6 +974,11 @@ span {
 
 /* ---------------FOOTER SUBSCRIBE--------------------- */
 .subscribe-containter {
+}
+.form-subcribe {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 .footer-form-wrapper {
   display: flex;
