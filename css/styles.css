@@ -977,12 +977,9 @@ span {
 }
 .form-subcribe {
   display: flex;
-  align-items: center;
   gap: 24px;
 }
-.footer-form-wrapper {
-  display: flex;
-}
+
 .form-E-mail {
   width: 264px;
   height: 40px;
