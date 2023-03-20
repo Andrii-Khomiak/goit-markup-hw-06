@@ -780,6 +780,7 @@ span {
   fill: #2e2f42;
   cursor: pointer;
 }
+
 .modal-title {
   font-weight: 500;
   font-size: 16px;
@@ -865,7 +866,7 @@ span {
   text-align: center;
   letter-spacing: 0.04em;
   padding: 16px 32px;
-  background-color: #404bbf;
+  background-color: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
@@ -1009,7 +1010,8 @@ span {
 }
 
 .subscribe-submit {
-  height: 32px;
+  height: 40px;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1019,7 +1021,6 @@ span {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  margin-left: 24px;
   min-width: 165px;
   padding: 8px 24px;
   gap: 16px;
