@@ -518,7 +518,6 @@ body {
   display: flex;
   text-align: center;
   color: #ffffff;
-  gap120px
 }
 
 .footer,
@@ -819,7 +818,7 @@ span {
   right: 0%;
   top: 31.03%;
   bottom: 0%;
-  border: 1px solid #2e2f42;
+  border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding: 5px 10px;
   outline: transparent;
@@ -865,6 +864,13 @@ span {
 
   color: #8e8f99;
 }
+.form-textarea::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+}
 
 .form-btn {
   width: 105px;
@@ -879,7 +885,7 @@ span {
   text-align: center;
   letter-spacing: 0.04em;
   padding: 16px 32px;
-margin-top: 24px;
+  margin-top: 24px;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -890,11 +896,10 @@ margin-top: 24px;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-btn:hover {
-  background: #404BBF;
+  background: #404bbf;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-
 
 .form-group {
   margin-bottom: 8px;
@@ -908,6 +913,7 @@ margin-top: 24px;
   top: 50%;
   transform: translateY(-50%);
 }
+
 .form-input:focus {
   border-color: #4d5ae5;
 }
@@ -923,7 +929,7 @@ margin-top: 24px;
   width: 100%;
   min-height: 120px;
   color: black;
-  border: 1px solid #2e2f42;
+  border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   outline: transparent;
   transition-duration: 250ms;
@@ -1015,7 +1021,7 @@ margin-top: 24px;
   border-radius: 4px;
   padding: 8px 16px;
 }
-..form-E-mail::placeholder {
+.form-E-mail::placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
@@ -1056,9 +1062,8 @@ margin-top: 24px;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.subscribe-submit:hover
-{
-  background: #404BBF;
+.subscribe-submit:hover {
+  background: #404bbf;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
